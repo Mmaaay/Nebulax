@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "source": "/(.*).js",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "continue": true
+    }
+  ]
+}
