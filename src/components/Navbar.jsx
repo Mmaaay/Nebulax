@@ -9,7 +9,7 @@ const Navbar = () => {
           alt="Logo"
           className="w-8 h-8 rounded-full sm:w-10 sm:h-10 lg:w-12 lg:h-12"
         />
-        <span className="ml-2 text-base font-semibold text-gray-800 sm:ml-3 sm:text-lg">
+        <span className="ml-2 text-base font-semibold text-gray-800 pointer sm:ml-3 sm:text-lg">
           Nebulax
         </span>
       </div>

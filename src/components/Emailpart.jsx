@@ -6,7 +6,6 @@ const Emailpart = () => {
       <div className="flex justify-center">
         <Email />
       </div>
-      <div className="h-64 bg-black">{/* Black box placeholder */}</div>
     </div>
   );
 };
