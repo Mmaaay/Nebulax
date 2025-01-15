@@ -1,8 +1,22 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Nebulax/",
+  // Add base URL configuration
+  base: "./",
+  // Add build configuration
+  build: {
+    outDir: "dist",
+    assetsDir: "assets",
+    sourcemap: false,
+    // Ensure clean builds
+    emptyOutDir: true,
+    // Configure rollup options
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
 });

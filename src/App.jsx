@@ -1,3 +1,4 @@
+import "./App.css";
 import Emailpart from "./components/Emailpart";
 import Mainpart from "./components/Mainpart";
 import Navbar from "./components/Navbar";
@@ -13,6 +14,7 @@ function App() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+        <title>NebulaX</title>
       </head>
       <body className="w-full h-full p-0 m-0 bg-white -z-20">
         <Navbar />
