@@ -1,6 +1,12 @@
 {
   "routes": [
     {
+      "src": "/(.*)\\.css$",
+      "headers": {
+        "Content-Type": "text/css"
+      }
+    },
+    {
       "src": "/assets/(.*)",
       "headers": {
         "Content-Type": "application/javascript",
@@ -15,12 +21,6 @@
     },
     {
       "src": "/(.*)\\.jsx$",
-      "headers": {
-        "Content-Type": "application/javascript"
-      }
-    },
-    {
-      "src": "/(.*)\\.css$",
       "headers": {
         "Content-Type": "application/javascript"
       }
