@@ -13,8 +13,8 @@ const HalfCard = ({
 }) => {
   const alignmentClass =
     Allignment === "left"
-      ? "justify-start pr-4 pl-10"
-      : "justify-end pl-4 pr-10";
+      ? "lg:justify-start pr-4 pl-10"
+      : "lg:justify-end pl-4 pr-10";
 
   const chartPosition =
     Allignment === "left"

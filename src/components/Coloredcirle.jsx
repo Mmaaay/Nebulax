@@ -22,7 +22,9 @@ const Coloredcircle = ({
         style={{ width: size, height: size }}
         className={`${bgColor || "bg-blue-500"} rounded-full relative`}
       />
-      <div className={`absolute flex z-10 ${itemCardPosition}`}>
+      <div
+        className={`absolute sm:justify-center sm:items-center  flex z-10 ${itemCardPosition}`}
+      >
         {Fullcard ? (
           <ItemCard image={image} itemName={itemName} price={price} />
         ) : (

@@ -9,7 +9,7 @@ const Resultpart = () => {
         <Coloredcircle
           size="12rem"
           bgColor="bg-blue-400"
-          itemCardPosition="left-10 bottom-4 "
+          itemCardPosition="lg:left-10 lg:bottom-4 -left-16 top-8"
           itemName="Minimal Chair"
           price="200.00"
           ColoredCircle={true}
@@ -21,7 +21,7 @@ const Resultpart = () => {
           size="10rem"
           bgColor="bg-green-400"
           customStyles="mt-[16rem] hidden lg:block"
-          itemCardPosition="-top-3 right-10 hidden lg:block"
+          itemCardPosition="-top-3 right-10  hidden lg:block"
           itemName="Beats Headphone"
           price="74.00"
           ColoredCircle={true}
