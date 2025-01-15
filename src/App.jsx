@@ -1,4 +1,3 @@
-import "./App.css";
 import Emailpart from "./components/Emailpart";
 import Mainpart from "./components/Mainpart";
 import Navbar from "./components/Navbar";
