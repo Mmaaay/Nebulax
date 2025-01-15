@@ -6,17 +6,19 @@ const ItemCard = ({ image, itemName, price }) => {
   const [mainPrice, decimalPrice] = price.toString().split(".");
 
   return (
-    <div className="flex flex-col items-center justify-between bg-white rounded-lg shadow-md py-4 w-[11rem] h-[11rem] z-20 hover:scale-105 transition-transform duration-300">
-      <div className="absolute flex items-center justify-center w-32 h-32 overflow-hidden -top-20 ">
+    <div className="flex flex-col items-center justify-between bg-white rounded-lg shadow-md py-2 sm:py-4 w-[8rem] sm:w-[9rem] md:w-[11rem] h-[9rem] sm:h-[10rem] md:h-[11rem] z-20 hover:scale-105 transition-transform duration-300">
+      <div className="absolute flex items-center justify-center w-24 h-24 overflow-hidden sm:w-28 md:w-32 sm:h-28 md:h-32 -top-16 sm:-top-20">
         <img
           src={image}
           alt={itemName}
           className="object-cover w-full h-full "
         />
       </div>
-      <div className="mt-10">
-        <p className="text-lg font-medium">{itemName}</p>
-        <hr className="mt-6 font-semibold w-[9rem]" />
+      <div className="mt-8 sm:mt-10">
+        <p className="text-sm font-medium sm:text-base md:text-lg">
+          {itemName}
+        </p>
+        <hr className="mt-4 sm:mt-6 font-semibold w-[7rem] sm:w-[8rem] md:w-[9rem]" />
       </div>
       <div className="flex items-center justify-between w-full px-2 py-2">
         <p className="font-bold text-yellow-500">

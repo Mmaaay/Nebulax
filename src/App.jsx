@@ -8,14 +8,22 @@ import Subpart from "./components/Subpart";
 
 function App() {
   return (
-    <body className="w-full h-full p-0 m-0 bg-white -z-20">
-      <Navbar />
-      <Mainpart />
-      <Subpart />
-      <Storepart />
-      <Resultpart />
-      <Emailpart />
-    </body>
+    <>
+      <head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+      </head>
+      <body className="w-full h-full p-0 m-0 bg-white -z-20">
+        <Navbar />
+        <Mainpart />
+        <Subpart />
+        <Storepart />
+        <Resultpart />
+        <Emailpart />
+      </body>
+    </>
   );
 }
 

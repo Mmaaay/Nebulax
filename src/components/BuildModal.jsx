@@ -20,8 +20,8 @@ const BuildModal = () => {
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center transition-opacity duration-300 bg-black bg-opacity-50">
-      <div className="p-6 transition-transform duration-300 ease-in-out transform scale-95 bg-white rounded-lg shadow-lg animate-scaleIn">
+    <div className="fixed inset-0 flex items-center justify-center p-4 transition-opacity duration-300 bg-black bg-opacity-50">
+      <div className="w-full max-w-lg p-6 transition-transform duration-300 ease-in-out transform bg-white rounded-lg shadow-lg">
         <h2 className="mb-4 text-2xl font-semibold text-gray-800">
           Project Details
         </h2>

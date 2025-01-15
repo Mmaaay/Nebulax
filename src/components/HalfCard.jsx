@@ -19,7 +19,7 @@ const HalfCard = ({
   const chartPosition =
     Allignment === "left"
       ? "absolute right-10 -bottom-8"
-      : "absolute -left-14 -bottom-12 ";
+      : "absolute -left-12 -bottom-20 ";
 
   const chartContainer = (
     <div className={`${chartPosition} w-40 h-20 opacity-50`}>
