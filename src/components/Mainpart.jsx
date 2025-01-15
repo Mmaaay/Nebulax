@@ -1,10 +1,10 @@
 import { FaSearch } from "react-icons/fa";
-import FashionStore from "/src/assets/hats_shoes.png";
+import FashionStore from "../assets/hats_shoes.png";
 import logo from "../assets/logo.jpg";
-import FullCard from "./FullCard";
+import FullCard from "./FullCard.jsx";
 import { useDispatch } from "react-redux";
-import { setProjectDescription, toggleModal } from "../redux/inputSlice";
-import BuildModal from "./BuildModal";
+import { setProjectDescription, toggleModal } from "../redux/inputSlice.js";
+import BuildModal from "./BuildModal.jsx";
 
 const Mainpart = () => {
   const dispatch = useDispatch();

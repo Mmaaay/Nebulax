@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import Profilecircle from "./Profilecircle";
-import SmoothLineChart from "./recharts";
+import Profilecircle from "./Profilecircle.jsx";
+import SmoothLineChart from "./recharts.jsx";
 
 const HalfCard = ({
   image,

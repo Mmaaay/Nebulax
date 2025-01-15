@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import ItemCard from "./ItemCard";
-import HalfCard from "./HalfCard";
+import ItemCard from "./ItemCard.jsx";
+import HalfCard from "./HalfCard.jsx";
 
 const Coloredcircle = ({
   bgColor,

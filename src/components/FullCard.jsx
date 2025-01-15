@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Profilecircle from "./Profilecircle";
+import Profilecircle from "./Profilecircle.jsx";
 const FullCard = ({
   image,
   text,

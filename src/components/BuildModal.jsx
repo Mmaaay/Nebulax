@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { setEmail, toggleModal } from "../redux/inputSlice";
+import { setEmail, toggleModal } from "../redux/inputSlice.js";
 
 const BuildModal = () => {
   const dispatch = useDispatch();
